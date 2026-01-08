@@ -22,7 +22,7 @@ site_description = "工作常用文档."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "hebinoff"
+site_author = "hebin"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -305,5 +305,6 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 # icon = "fontawesome/brands/github"
 # link = "hebinoff.github.io"
-
+[project.extra]
+generator = false
 
