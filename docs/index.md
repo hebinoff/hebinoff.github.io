@@ -11,4 +11,3 @@ hide:
   ![Image title](/images/Mondrian_1.svg){ width="512" }
   <figcaption>Explanation Kills Art</figcaption>
 </figure>
-

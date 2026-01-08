@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "HEBINOFF"
+site_name = "BIN"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "工作常用文档."
+site_description = "My work."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -34,7 +34,7 @@ site_author = "hebin"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 hebinoff
+Copyright &copy; 2025 hebin
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -45,7 +45,7 @@ Copyright &copy; 2025 hebinoff
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 # nav = [
-#   { "Get started" = "index.md" },
+#   { "home" = "index.md" },
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
 
@@ -111,7 +111,7 @@ logo = "images/logo.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "zh"
+language = "en"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
