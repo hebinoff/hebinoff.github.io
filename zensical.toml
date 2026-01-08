@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "wiki"
+site_name = "HEBINOFF"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -293,14 +293,15 @@ toggle.name = "Switch to light mode"
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
 #[project.theme.icon]
-#logo = "lucide/smile"
+#logo = "/image/logo.png"
 #repo = "lucide/smile"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-[[project.extra.social]]
-icon = "fontawesome/brands/github"
-link = "hebinoff.github.io"
-
+#[[project.extra.social]]
+# icon = "fontawesome/brands/github"
+# link = "hebinoff.github.io"
+favicon = "images/logo.png" 
+logo = "images/logo.png"
 
