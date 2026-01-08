@@ -72,6 +72,9 @@ Copyright &copy; 2025 hebinoff
 # ----------------------------------------------------------------------------
 [project.theme]
 
+favicon = "images/logo.png" 
+logo = "images/logo.png"
+
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
 
@@ -302,6 +305,5 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 # icon = "fontawesome/brands/github"
 # link = "hebinoff.github.io"
-favicon = "images/logo.png" 
-logo = "images/logo.png"
+
 
