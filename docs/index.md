@@ -8,6 +8,6 @@ hide:
 # Home
 
 <figure markdown="span">
-  ![Image title](/images/Mondrian_1.svg){ width="512" }
+  ![Image title](/images/Mondrian.svg){ width="512" }
   <figcaption>Explanation Kills Art</figcaption>
 </figure>
