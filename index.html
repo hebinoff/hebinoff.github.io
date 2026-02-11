@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="免费在线玩各种HTML5小游戏，无需下载，即点即玩。包含休闲、动作、益智等多种类型游戏。">
+    <meta name="keywords" content="免费游戏,在线游戏,HTML5游戏,小游戏,休闲游戏">
+    <meta name="author" content="GameHub">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="GameHub - 免费在线小游戏平台">
+    <meta property="og:description" content="免费在线玩各种HTML5小游戏，无需下载，即点即玩">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hebinoff.github.io/">
+    <meta property="og:image" content="https://hebinoff.github.io/assets/og-image.jpg">
+    
+    <title>GameHub - 免费在线小游戏平台</title>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1704028005646885" crossorigin="anonymous"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "GameHub",
+        "url": "https://hebinoff.github.io/",
+        "description": "免费在线玩各种HTML5小游戏",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://hebinoff.github.io/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🎮 GameHub</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="active">首页</a>
+                <a href="#games">游戏</a>
+                <a href="#about">关于</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Top Ad Banner -->
+    <div class="ad-container top-ad">
+        <!-- 请在此处添加您的 Google AdSense 代码 -->
+        <!-- <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> -->
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>免费在线玩游戏</h2>
+            <p>无需下载，即点即玩！海量HTML5小游戏等你体验</p>
+            <a href="#games" class="btn-primary">开始游戏</a>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Sidebar Ad -->
+            <aside class="sidebar">
+                <div class="ad-container sidebar-ad">
+                    <!-- 请在此处添加您的 Google AdSense 代码 -->
+                    <!-- <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                         data-ad-slot="YOUR_AD_SLOT_ID"
+                         data-ad-format="vertical"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script> -->
+                </div>
+            </aside>
+            
+            <!-- Games Grid -->
+            <section class="games-section" id="games">
+                <h2 class="section-title">热门游戏</h2>
+                
+                <div class="games-grid">
+                    <!-- Game Card 1 -->
+                    <article class="game-card" itemscope itemtype="https://schema.org/VideoGame">
+                        <a href="games/flappy-bird/index.html" class="game-link">
+                            <div class="game-thumbnail">
+                                <div class="game-icon">🐦</div>
+                            </div>
+                            <div class="game-info">
+                                <h3 itemprop="name">飞翔的小鸟</h3>
+                                <p itemprop="description">经典的Flappy Bird游戏，点击屏幕控制小鸟飞行，躲避管道！</p>
+                                <div class="game-meta">
+                                    <span class="game-category" itemprop="genre">休闲</span>
+                                    <span class="game-plays">👁 1.2k 次游玩</span>
+                                </div>
+                            </div>
+                        </a>
+                        <meta itemprop="gamePlatform" content="Web Browser">
+                        <meta itemprop="applicationCategory" content="Game">
+                    </article>
+                    
+                    <!-- Game Card 2 -->
+                    <article class="game-card" itemscope itemtype="https://schema.org/VideoGame">
+                        <a href="games/snake/index.html" class="game-link">
+                            <div class="game-thumbnail">
+                                <div class="game-icon">🐍</div>
+                            </div>
+                            <div class="game-info">
+                                <h3 itemprop="name">贪吃蛇</h3>
+                                <p itemprop="description">经典贪吃蛇游戏，控制蛇吃掉食物，不要撞到墙壁或自己！</p>
+                                <div class="game-meta">
+                                    <span class="game-category" itemprop="genre">益智</span>
+                                    <span class="game-plays">👁 980 次游玩</span>
+                                </div>
+                            </div>
+                        </a>
+                        <meta itemprop="gamePlatform" content="Web Browser">
+                        <meta itemprop="applicationCategory" content="Game">
+                    </article>
+                    
+                    <!-- More game cards can be added here -->
+                    <article class="game-card placeholder">
+                        <div class="game-thumbnail">
+                            <div class="game-icon">🎲</div>
+                        </div>
+                        <div class="game-info">
+                            <h3>更多游戏</h3>
+                            <p>敬请期待...</p>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Middle Ad -->
+                <div class="ad-container middle-ad">
+                    <!-- 请在此处添加您的 Google AdSense 代码 -->
+                    <!-- <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                         data-ad-slot="YOUR_AD_SLOT_ID"
+                         data-ad-format="horizontal"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script> -->
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>关于 GameHub</h2>
+            <p>GameHub 是一个免费的在线HTML5游戏平台，无需下载安装，打开浏览器即可畅玩各种精彩小游戏。</p>
+            <p>所有游戏都经过精心挑选，确保在不同设备上都有良好的游戏体验。</p>
+        </div>
+    </section>
+    
+    <!-- Footer Ad -->
+    <div class="ad-container footer-ad">
+        <!-- 请在此处添加您的 Google AdSense 代码 -->
+        <!-- <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> -->
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 GameHub. 保留所有权利。</p>
+            <p>
+                <a href="privacy.html">隐私政策</a> | 
+                <a href="terms.html">使用条款</a> | 
+                <a href="contact.html">联系我们</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

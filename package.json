@@ -1,0 +1,22 @@
+{
+  "name": "gamehub",
+  "version": "1.0.0",
+  "description": "免费在线小游戏平台 - 基于GitHub Pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "games",
+    "html5",
+    "javascript",
+    "canvas",
+    "github-pages"
+  ],
+    "author": "hebinoff",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hebinoff/hebinoff.github.io.git"
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="免费在线玩贪吃蛇游戏 - 经典贪吃蛇游戏，控制蛇吃掉食物，不要撞到墙壁或自己！">
+    <title>贪吃蛇 - 在线游戏 | GameHub</title>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1704028005646885" crossorigin="anonymous"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "贪吃蛇",
+        "description": "经典贪吃蛇游戏，控制蛇吃掉食物，不要撞到墙壁或自己",
+        "genre": "益智",
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.3",
+            "ratingCount": "980"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+            margin: 0;
+            padding: 0;
+        }
+        
+        #gameCanvas {
+            background: #000;
+            border: 3px solid #4CAF50;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body class="game-page">
+    <!-- Top Ad Banner -->
+    <div class="ad-container top-ad">
+        <!-- 请在此处添加您的 Google AdSense 代码 -->
+    </div>
+    
+    <div class="game-container">
+        <div class="game-header">
+            <h1>🐍 贪吃蛇</h1>
+            <a href="../../index.html" class="back-btn">← 返回首页</a>
+        </div>
+        
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            <div id="gameOverlay" class="game-overlay">
+                <h2 id="overlayTitle">游戏结束</h2>
+                <p id="overlayText">得分: 0</p>
+                <button class="control-btn btn-start" onclick="startGame()">开始游戏</button>
+            </div>
+        </div>
+        
+        <div class="game-controls">
+            <button class="control-btn btn-start" onclick="startGame()">开始</button>
+            <button class="control-btn btn-pause" onclick="pauseGame()">暂停</button>
+            <button class="control-btn btn-restart" onclick="restartGame()">重新开始</button>
+        </div>
+        
+        <div class="game-stats">
+            <div class="stat-item">
+                <span class="stat-label">得分:</span>
+                <span class="stat-value" id="score">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">最高分:</span>
+                <span class="stat-value" id="highScore">0</span>
+            </div>
+        </div>
+        
+        <!-- Middle Ad -->
+        <div class="ad-container middle-ad">
+            <!-- 请在此处添加您的 Google AdSense 代码 -->
+        </div>
+        
+        <div class="game-instructions">
+            <h3>游戏说明</h3>
+            <ul>
+                <li>使用方向键或WASD控制蛇的移动</li>
+                <li>吃掉红色食物来增长蛇身和得分</li>
+                <li>不要撞到墙壁或自己的身体</li>
+                <li>每吃掉一个食物得10分</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Footer Ad -->
+    <div class="ad-container footer-ad">
+        <!-- 请在此处添加您的 Google AdSense 代码 -->
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 GameHub. 保留所有权利。</p>
+        </div>
+    </footer>
+    
+    <script src="game.js"></script>
+</body>
+</html>

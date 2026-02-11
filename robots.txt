@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hebinoff.github.io/sitemap.xml
+
+# Crawl rate
+Crawl-delay: 1
+
+# Disallow specific paths (if any)
+# Disallow: /private/
